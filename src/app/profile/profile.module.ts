@@ -7,7 +7,6 @@ import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { ReferenceComponent } from './reference/reference.component';
@@ -15,8 +14,6 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SplitPipe } from './split.pipe';
-import { ExtraCiricularComponent } from './extra-ciricular/extra-ciricular.component';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -30,14 +27,12 @@ import { ExtraCiricularComponent } from './extra-ciricular/extra-ciricular.compo
     IntroComponent,
     AboutComponent,
     SkillsComponent,
-    PortfolioComponent,
     ExperienceComponent,
     EducationComponent,
     ReferenceComponent,
     ContactComponent,
     ProjectsComponent,
     SplitPipe,
-    ExtraCiricularComponent
   ],
  
 })
